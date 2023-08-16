@@ -1,0 +1,10 @@
+Once you run the application you can consume the API with below steps
+
+API URL: http://localhost:8080/api/v1/logging-system/?type=3&message=asdf
+
+Query params:
+1. type - It i og type Integer. Used to select the type of logger that you want to use. There are 3 types of logger
+            1. INFO having value 1
+            2. DEBUG having value 2
+            3. ERROR having value 3
+2. message - Any message that you want to print using the logger.
